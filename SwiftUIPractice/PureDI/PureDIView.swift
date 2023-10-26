@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PureDIView: View {
     
-    let viewModel = PureDIViewModel()
+    private let viewModel = PureDIViewModel()
     
     var body: some View {
         Text("Hello, Pure DI!")
