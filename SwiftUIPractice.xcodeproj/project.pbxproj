@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		FBC613992AE90B3C00C95011 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613982AE90B3C00C95011 /* SwiftUIPracticeApp.swift */; };
-		FBC6139B2AE90B3C00C95011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6139A2AE90B3C00C95011 /* ContentView.swift */; };
+		FBC6139B2AE90B3C00C95011 /* PureDIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6139A2AE90B3C00C95011 /* PureDIView.swift */; };
 		FBC6139D2AE90B3D00C95011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC6139C2AE90B3D00C95011 /* Assets.xcassets */; };
 		FBC613A12AE90B3D00C95011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC613A02AE90B3D00C95011 /* Preview Assets.xcassets */; };
-		FBC613A82AE90C0600C95011 /* SelfReturnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613A72AE90C0600C95011 /* SelfReturnable.swift */; };
-		FBC613AA2AE90C7600C95011 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613A92AE90C7600C95011 /* Item.swift */; };
-		FBC613AC2AE90D2E00C95011 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613AB2AE90D2E00C95011 /* ContentViewModel.swift */; };
+		FBC613AC2AE90D2E00C95011 /* PureDIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC613AB2AE90D2E00C95011 /* PureDIViewModel.swift */; };
+		FBF2C44F2AEA26C400181E49 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FBF2C44E2AEA26C400181E49 /* Swinject */; };
+		FBF2C4512AEA26C400181E49 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FBF2C4502AEA26C400181E49 /* Swinject-Dynamic */; };
+		FBF2C4552AEA26FA00181E49 /* SwinjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C4542AEA26FA00181E49 /* SwinjectView.swift */; };
+		FBF2C4572AEA270100181E49 /* SwinjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C4562AEA270100181E49 /* SwinjectViewModel.swift */; };
+		FBF2C45A2AEA271500181E49 /* Repositoriable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C4592AEA271500181E49 /* Repositoriable.swift */; };
+		FBF2C45C2AEA272700181E49 /* CryptoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C45B2AEA272700181E49 /* CryptoRepository.swift */; };
+		FBF2C45E2AEA273F00181E49 /* NFTRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C45D2AEA273F00181E49 /* NFTRepository.swift */; };
+		FBF2C4602AEA27CE00181E49 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C45F2AEA27CE00181E49 /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBC613952AE90B3C00C95011 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC613982AE90B3C00C95011 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
-		FBC6139A2AE90B3C00C95011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBC6139A2AE90B3C00C95011 /* PureDIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureDIView.swift; sourceTree = "<group>"; };
 		FBC6139C2AE90B3D00C95011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC6139E2AE90B3D00C95011 /* SwiftUIPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIPractice.entitlements; sourceTree = "<group>"; };
 		FBC613A02AE90B3D00C95011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FBC613A72AE90C0600C95011 /* SelfReturnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfReturnable.swift; sourceTree = "<group>"; };
-		FBC613A92AE90C7600C95011 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		FBC613AB2AE90D2E00C95011 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		FBC613AB2AE90D2E00C95011 /* PureDIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureDIViewModel.swift; sourceTree = "<group>"; };
+		FBF2C4542AEA26FA00181E49 /* SwinjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectView.swift; sourceTree = "<group>"; };
+		FBF2C4562AEA270100181E49 /* SwinjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectViewModel.swift; sourceTree = "<group>"; };
+		FBF2C4592AEA271500181E49 /* Repositoriable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositoriable.swift; sourceTree = "<group>"; };
+		FBF2C45B2AEA272700181E49 /* CryptoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoRepository.swift; sourceTree = "<group>"; };
+		FBF2C45D2AEA273F00181E49 /* NFTRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTRepository.swift; sourceTree = "<group>"; };
+		FBF2C45F2AEA27CE00181E49 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF2C44F2AEA26C400181E49 /* Swinject in Frameworks */,
+				FBF2C4512AEA26C400181E49 /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				FBC613982AE90B3C00C95011 /* SwiftUIPracticeApp.swift */,
-				FBC6139A2AE90B3C00C95011 /* ContentView.swift */,
-				FBC613AB2AE90D2E00C95011 /* ContentViewModel.swift */,
-				FBC613A72AE90C0600C95011 /* SelfReturnable.swift */,
-				FBC613A92AE90C7600C95011 /* Item.swift */,
+				FBF2C4582AEA270E00181E49 /* Repository */,
+				FBF2C4532AEA26EF00181E49 /* Swinject */,
+				FBF2C4522AEA26E700181E49 /* PureDI */,
 				FBC6139C2AE90B3D00C95011 /* Assets.xcassets */,
 				FBC6139E2AE90B3D00C95011 /* SwiftUIPractice.entitlements */,
 				FBC6139F2AE90B3D00C95011 /* Preview Content */,
@@ -76,6 +87,35 @@
 				FBC613A02AE90B3D00C95011 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBF2C4522AEA26E700181E49 /* PureDI */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6139A2AE90B3C00C95011 /* PureDIView.swift */,
+				FBC613AB2AE90D2E00C95011 /* PureDIViewModel.swift */,
+			);
+			path = PureDI;
+			sourceTree = "<group>";
+		};
+		FBF2C4532AEA26EF00181E49 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				FBF2C4542AEA26FA00181E49 /* SwinjectView.swift */,
+				FBF2C4562AEA270100181E49 /* SwinjectViewModel.swift */,
+				FBF2C45F2AEA27CE00181E49 /* Container.swift */,
+			);
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		FBF2C4582AEA270E00181E49 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FBF2C4592AEA271500181E49 /* Repositoriable.swift */,
+				FBF2C45B2AEA272700181E49 /* CryptoRepository.swift */,
+				FBF2C45D2AEA273F00181E49 /* NFTRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +134,10 @@
 			dependencies = (
 			);
 			name = SwiftUIPractice;
+			packageProductDependencies = (
+				FBF2C44E2AEA26C400181E49 /* Swinject */,
+				FBF2C4502AEA26C400181E49 /* Swinject-Dynamic */,
+			);
 			productName = SwiftUIPractice;
 			productReference = FBC613952AE90B3C00C95011 /* SwiftUIPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +166,9 @@
 				Base,
 			);
 			mainGroup = FBC6138C2AE90B3C00C95011;
+			packageReferences = (
+				FBF2C44D2AEA26C400181E49 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = FBC613962AE90B3C00C95011 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,11 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC613AA2AE90C7600C95011 /* Item.swift in Sources */,
-				FBC6139B2AE90B3C00C95011 /* ContentView.swift in Sources */,
-				FBC613A82AE90C0600C95011 /* SelfReturnable.swift in Sources */,
+				FBC6139B2AE90B3C00C95011 /* PureDIView.swift in Sources */,
+				FBF2C45C2AEA272700181E49 /* CryptoRepository.swift in Sources */,
+				FBF2C4572AEA270100181E49 /* SwinjectViewModel.swift in Sources */,
 				FBC613992AE90B3C00C95011 /* SwiftUIPracticeApp.swift in Sources */,
-				FBC613AC2AE90D2E00C95011 /* ContentViewModel.swift in Sources */,
+				FBC613AC2AE90D2E00C95011 /* PureDIViewModel.swift in Sources */,
+				FBF2C4552AEA26FA00181E49 /* SwinjectView.swift in Sources */,
+				FBF2C45E2AEA273F00181E49 /* NFTRepository.swift in Sources */,
+				FBF2C4602AEA27CE00181E49 /* Container.swift in Sources */,
+				FBF2C45A2AEA271500181E49 /* Repositoriable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +422,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBF2C44D2AEA26C400181E49 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBF2C44E2AEA26C400181E49 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBF2C44D2AEA26C400181E49 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		FBF2C4502AEA26C400181E49 /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBF2C44D2AEA26C400181E49 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBC6138D2AE90B3C00C95011 /* Project object */;
 }
